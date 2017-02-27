@@ -30,5 +30,6 @@
         android:elevation="0dp"
         android:layout_below="@+id/WelcomeText"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="101dp" />
+        android:layout_marginTop="101dp"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

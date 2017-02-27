@@ -6,24 +6,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import static android.R.attr.button;
 
 public class StartingPage extends AppCompatActivity {
 
     public Button startpage_next;
 
-    public void init(){
-        startpage_next = (Button)findViewById(R.id.startpage_next);
+    public void init() {
+        startpage_next = (Button) findViewById(R.id.startpage_next);
         startpage_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    Intent toy = new Intent(StartingPage.this,MainActivity.class);
+                Intent toy = new Intent(StartingPage.this, MainActivity.class);
 
-                    startActivity(toy);
+                startActivity(toy);
 
-        }
+            }
         });
-        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
