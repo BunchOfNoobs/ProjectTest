@@ -10,4 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.bunchofnoobs.projecttest.StartingPage">
 
+    <TextView
+        android:text="Welcome To Our new App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:id="@+id/WelcomeText"
+        android:contentDescription="Welcome" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startpage_next"
+        android:onClick="sendMessage"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:elevation="0dp"
+        android:layout_below="@+id/WelcomeText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="101dp" />
 </RelativeLayout>
