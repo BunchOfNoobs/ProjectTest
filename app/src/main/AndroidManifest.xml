@@ -15,10 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Level1" />
-        <activity android:name=".Level2" />
-        <activity android:name=".Level3"></activity>
+        <activity android:name=".ClickerNavigation" />
+        <activity android:name=".ClickerLevel1" />
+        <activity android:name=".ClickerLevel2" />
+        <activity android:name=".ClickerLevel3" />
+        <activity android:name=".GamesNavigation" />
+        <activity android:name=".NumberGame"></activity>
     </application>
 
 </manifest>

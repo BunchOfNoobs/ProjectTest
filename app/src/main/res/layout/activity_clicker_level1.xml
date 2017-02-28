@@ -8,6 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/grey"
     tools:context="com.example.bunchofnoobs.projecttest.Level1">
 
     <TextView
@@ -32,12 +33,13 @@
 
     <Button
         android:text="CLICK"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
         android:id="@+id/btnClick"
         android:layout_below="@+id/tvClicks"
         android:layout_centerHorizontal="true"
+        android:background="@color/red"
         style="@style/Widget.AppCompat.Button" />
 
     <Button

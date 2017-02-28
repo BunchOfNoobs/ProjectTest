@@ -5,14 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ClickerNavigation extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_clicker_navigation);
         Button b1 =(Button)findViewById(R.id.btnLevel1);
         Button b2 =(Button)findViewById(R.id.btnLevel2);
         Button b3 =(Button)findViewById(R.id.btnLevel3);
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent myintent2 = new Intent(MainActivity.this,Level1.class);
+                Intent myintent2 = new Intent(ClickerNavigation.this,ClickerLevel1.class);
                 startActivity(myintent2);
 
             }
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent myintent2 = new Intent(MainActivity.this,Level2.class);
+                Intent myintent2 = new Intent(ClickerNavigation.this,ClickerLevel2.class);
                 startActivity(myintent2);
 
             }
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent myintent2 = new Intent(MainActivity.this,Level3.class);
+                Intent myintent2 = new Intent(ClickerNavigation.this,ClickerLevel3.class);
                 startActivity(myintent2);
 
             }
