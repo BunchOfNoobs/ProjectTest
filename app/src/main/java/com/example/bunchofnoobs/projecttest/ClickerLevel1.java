@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Level1 extends AppCompatActivity {
+public class ClickerLevel1 extends AppCompatActivity {
 
     TextView tvTime, tvClicks;
     Button btnClick,btnStart;
@@ -20,7 +20,7 @@ public class Level1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_level1);
+        setContentView(R.layout.activity_clicker_level1);
 
         tvTime = (TextView) findViewById(R.id.tvTime);
         tvClicks = (TextView) findViewById(R.id.tvClicks);

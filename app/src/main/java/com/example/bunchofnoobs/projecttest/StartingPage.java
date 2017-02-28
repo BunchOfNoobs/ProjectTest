@@ -16,7 +16,7 @@ public class StartingPage extends AppCompatActivity {
         startpage_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toy = new Intent(StartingPage.this, MainActivity.class);
+                Intent toy = new Intent(StartingPage.this, GamesNavigation.class);
 
                 startActivity(toy);
 
