@@ -11,14 +11,15 @@
     tools:context="com.example.bunchofnoobs.projecttest.StartingPage">
 
     <TextView
-        android:text="Welcome To Our new App"
+        android:text="Click the button below"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="124dp"
         android:id="@+id/WelcomeText"
-        android:contentDescription="Welcome" />
+        android:contentDescription="Welcome"
+        android:textSize="24sp" />
 
     <Button
         android:text="Next"
@@ -26,10 +27,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/startpage_next"
         android:onClick="sendMessage"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:elevation="0dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:elevation="3dp"
+        android:textSize="18sp"
         android:layout_below="@+id/WelcomeText"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="101dp"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginTop="99dp" />
 </RelativeLayout>
