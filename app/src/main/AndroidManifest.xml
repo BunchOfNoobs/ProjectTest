@@ -20,7 +20,6 @@
         <activity android:name=".ClickerLevel2" />
         <activity android:name=".ClickerLevel3" />
         <activity android:name=".GamesNavigation" />
-        <activity android:name=".NumberGame"></activity>
     </application>
 
 </manifest>

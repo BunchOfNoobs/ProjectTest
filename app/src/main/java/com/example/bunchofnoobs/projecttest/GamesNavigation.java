@@ -25,14 +25,6 @@ public class GamesNavigation extends AppCompatActivity {
             }
         });
 
-        b2.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                Intent myintent2 = new Intent(GamesNavigation.this,NumberGame.class);
-                startActivity(myintent2);
-
-            }
-        });
 
     }
 }
