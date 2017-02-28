@@ -59,7 +59,6 @@ public class ClickerLevel1 extends AppCompatActivity {
 
                 clicks++;
                 tvClicks.setText("Clicks " + clicks );
-
             }
 
         });
