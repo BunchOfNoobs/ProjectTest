@@ -44,8 +44,11 @@ public class Level1 extends AppCompatActivity {
 
                 btnStart.setEnabled(true);
                 btnClick.setEnabled(false);
-                
+
+                if (clicks >= 100)
                 tvTime.setText("Well done");
+                else
+                tvTime.setText("You Suck");
 
             }
         };

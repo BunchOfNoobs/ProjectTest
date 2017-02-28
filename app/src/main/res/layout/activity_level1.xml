@@ -37,14 +37,17 @@
         android:layout_marginTop="31dp"
         android:id="@+id/btnClick"
         android:layout_below="@+id/tvClicks"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button" />
 
     <Button
         android:text="Start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/btnStart"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/btnClick"
-        android:layout_marginBottom="33dp"
-        android:id="@+id/btnStart" />
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button" />
+
 </RelativeLayout>
