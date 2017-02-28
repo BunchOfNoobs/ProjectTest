@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/grey"
-    tools:context="com.example.bunchofnoobs.projecttest.Level1">
+    tools:context="com.example.bunchofnoobs.projecttest.ClickerLevel1">
 
     <TextView
         android:text="Time : 15"
